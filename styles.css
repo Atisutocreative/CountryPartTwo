@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.atisuto.nl/wp-content/uploads/2020/09/WebSunUpAtisuto-2-1030x687.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    font-family: "Roboto Light";
+}
+
+h1 {
+
+    font-family: Impact;
+}
+.search-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 15px;
+}
+
+.flag-style {
+    display: flex;
+    width: 150px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* The Modal (background) */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0); !* Fallback color *!*/
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.popup-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition-duration: 0.5s;
+}
+
+button, input {
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+}
+
+button:hover {
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+

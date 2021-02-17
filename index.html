@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Deel 4</title>
+</head>
+<body>
+
+<div class="search-block">
+    <h1>Zoek land informatie</h1>
+    <input id="input-country" type="text" placeholder="Waar gaan we heen?"><br>
+    <button type="button" id="search-country">Zoek</button>
+</div>
+<!--<div id="country-info-window" class="info-window"></div>-->
+
+<div id="country-popup" class="popup">
+
+    <!--Pop up content-->
+    <div id="country-info-window" class="popup-content">
+        <span class="close">&times;</span>
+        <p id="error-message"></p>
+    </div>
+
+</div>
+
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
