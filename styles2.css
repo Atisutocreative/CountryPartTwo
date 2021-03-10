@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: fixed;
+    background-image: url("assets/world_map.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    font-family: "Roboto Light";
+    color: #09d9c8;
+}
+
+
+#country-list {
+    margin-top: 100px;
+    list-style-type: none;
+    column-count: 3;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+}
+
+/*voor de oplossing waar het element alleen in de DOM gezet wordt bij een klik*/
+.population-text {
+    margin: 4px;
+    font-style: italic;
+    font-size: 12px;
+}
+/*voor de oplossing waarbij het element er altijd is, alleen zichtbaar of onzichtbaar wordt gemaakt*/
+.population-dropdown {
+    margin: 4px;
+    font-style: italic;
+    font-size: 12px;
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.country-clickable:hover {
+    cursor: pointer;
+}
+
+
+.flag {
+    width: 20px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+/*kleuren*/
+.blue {
+    color: #5575C1;
+}
+
+.green {
+    color: #4C834B;
+}
+
+.red {
+    color: #D24E5B;
+}
+
+.yellow {
+    color: #FFD435;
+}
+
+.purple {
+    color: #A653BA;
+}
+
+.default {
+    color: whitesmoke;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0px 30px 0px 30px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:93%;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+nav a,
+nav a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: #09d9c8;
+    text-decoration: underline;
+}

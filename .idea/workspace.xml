@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ec584cf-49aa-49e0-8d22-39ce8107fb0e" name="Default Changelist" comment="" />
+    <list default="true" id="6ec584cf-49aa-49e0-8d22-39ce8107fb0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/world_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/regions.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1oZAvyxFT1aRjmDSUHJKGrEvDAC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,6 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,10 +56,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -59,6 +76,11 @@
       <workItem from="1613483975367" duration="408000" />
       <workItem from="1613484518826" duration="520000" />
       <workItem from="1613550730761" duration="7416000" />
+      <workItem from="1613562356730" duration="1526000" />
+      <workItem from="1613596280760" duration="81000" />
+      <workItem from="1613652592917" duration="1535000" />
+      <workItem from="1614943390339" duration="659000" />
+      <workItem from="1615363880954" duration="8546000" />
     </task>
     <servers />
   </component>
